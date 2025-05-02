@@ -1,6 +1,6 @@
-the_prophet = "Muhammad"
-print(the_prophet)
-print(type(the_prophet))
+the_messenger = "Muhammad"
+print(the_messenger)
+print(type(the_messenger))
 
 class_number = 7
 print(class_number)
@@ -18,5 +18,15 @@ motorbike_brand = None
 print(motorbike_brand)
 print(type(motorbike_brand))
 
+# What is the "tuple"?
+the_prophet = ["Adam", "Idris", "Nuh", "Hud", "Saleh"]
+print(the_prophet)
+print(type(the_prophet))
 
+a = 3 + 5j
+print(a)
+print(type(a))
 
+b = 4j
+print(b)
+print(type(b))
