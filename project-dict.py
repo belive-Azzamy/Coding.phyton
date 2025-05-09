@@ -3,5 +3,6 @@ print(Hobbyname)
 print(type(Hobbyname))
 
 Hobbyname["Year"] = "2021"
-Hobbyname["Place"] = "At home"
+Hobbyname["Place"] = "Home"
 print(Hobbyname)
+print(type(Hobbyname))
