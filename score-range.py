@@ -9,4 +9,4 @@ elif grade > 50 and grade <= 70:
 elif grade < 50:
     print("Nilai kamu D")
 else:
-    print("Terjadi kesalahan dalam memberikan informasi")
+    print("Terjadi kesalahan dalam memasukkan nilai")
