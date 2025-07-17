@@ -7,4 +7,4 @@ def rata_rata(*numbers):
 
 rata_rata(1,2,3,4,5)
 rata_rata(10,20,30)
-rata_rata(55,55)
+rata_rata(55,100)

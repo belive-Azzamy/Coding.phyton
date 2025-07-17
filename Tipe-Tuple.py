@@ -6,6 +6,7 @@ print(type(numbers))
 print(numbers[3])
 # numbers[3] = 13 # error
 
+#Tuple manipulation
 location = tuple(('103.99', '-23.88'))
 print(location)
 print(type(location))

@@ -13,7 +13,7 @@ print(numbers[15])
 print(numbers[-8])
 
 # print a group of numbers, start from 55(number) until 67
-print(numbers[54:66])
+print(numbers[54:67])
 
 
 # print a group of even numbers, starts from 70(number) until 240
