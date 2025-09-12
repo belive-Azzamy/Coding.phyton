@@ -8,5 +8,5 @@ class Motor:
     def laporan(self):
         print(f'Motor dengan merk {self.merk} berwarna {self.warna} sedang melaju dengan kecepatan {self.kecepatan} km/jam')
 
-honda = Motor('Vario 150 gen 2', 'GlossyBlack', '80')
+honda = Motor('Vario 150 gen 2', 'BlackGlossy', '80')
 honda.laporan()

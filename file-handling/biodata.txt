@@ -1,0 +1,2 @@
+nama : Kiki
+umur : 10

@@ -41,11 +41,11 @@ class Teacher(Person):
         super().__init__(name, age)
         self.nip = nip
     def teaching(self, subject):
-        print(f"{self.name} with NIP {self.nip} teaching {subject}")
+        print(f"{self.name} is teaching {subject}")
 
     def getInfo(self):
         print(f"This teacher's name {self.name} with NIP {self.nip}, {self.age} years old")
-        
+
 teacher1 = Teacher("Pak Budi", 30, "20205432")
 teacher1.getInfo()
 teacher1.teaching("Math")

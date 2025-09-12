@@ -6,7 +6,7 @@ except FileExistsError:
 file = open('my-bio/my-data.txt', 'w')
 file.write("About Me\n")
 file.write("Hello, my name is Azzam.\n")
-file.write("I am 15 years old, and my hoby is reading novels.\n")
+file.write("I am 15 years old, and my hobby is reading novels.\n")
 file.write("what about my ambition? My ambition is to become a professional financial consultant bos\n")
 file.write("InsyaAllah.\n")
 

@@ -2,6 +2,9 @@
 class Animal:
     name = ""
     color = ""
+#__init__
+    def __init__(self):
+        print("let us see this")
 
 #class Method = prilaku g dapt dilakukan oleh objek, wajib memiliki 1 argumen yitu "self" = kata kunci
     def makeSound(self, sound):
@@ -68,4 +71,30 @@ bread.textur   = "circles"
 
 bread.printed()
 
+print("-"*20)
 
+class Hewan:
+    name = color = ""
+
+    def __init__(self, animal_name, animal_color):
+        self.name  = animal_name
+        self.color = animal_color
+    
+    def info(self):
+        print(f"Hewan dengan nama {self.name} memiliki warna {self.color}")
+
+    def makeSound(self, sound):
+        print(f"{self.name} with color {self.color} is making {sound}")
+
+    def eat(self, food):
+        print(f"{self.name} is eating {food}")
+
+kucing = Hewan("Tom", "Dark blue")
+kucing.info()
+kucing.makeSound('meong')
+kucing.eat('fish')
+
+tikus = Hewan("Jerry", "Brown")
+tikus.info()
+tikus.makeSound("citcitt")
+tikus.eat("cheese")
